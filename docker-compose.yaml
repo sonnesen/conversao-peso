@@ -1,0 +1,7 @@
+services:
+  app:
+    container_name: convpeso
+    image: sonnesen/conversao-peso
+    ports:
+      - 80:80
+      - 443:443
